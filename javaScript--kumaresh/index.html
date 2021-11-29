@@ -1,0 +1,63 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="style/css.css">
+    </head>
+    <script src="script/javascript.js"></script>
+    <body>
+        <h2>Personal information</h2>
+        <form >
+            <label for="name as per id proof">Name as per ID proof <span style="color: red;">*</span></label><br>
+            <input type="text" name="Name as per id"><br><br>
+
+            <label for="fathers name">Father's Name <span style="color: red;">*</span></label><br>
+            <input id="father" type="text" name="father name">
+            <lable id="fatherlable" style="color:red;visibility: hidden;font-size: smaller;">Lastname is required</lable><br><br>
+
+            <lable for ="Email id">Email <span style="color: red;">*</span></lable><br>
+            <input id="email" type="text" name="email">
+            <lable id="emaillable" style="color:red;visibility: hidden;font-size: smaller;">Email ID is required</lable><br><br>
+
+            <lable for="Date of birth">DateOfBirth <span style="color: red;">*</span></lable><br>
+            <input id="dob" type="text" name="date of birth" placeholder="DD-MM-YYYY">
+            <lable id="doblable" style="color:red;visibility: hidden;font-size: smaller;">required</lable><br><br>
+
+            <lable for="MobileNumber">Mobile Number <span style="color: red;">*</span></lable><br>
+            <input id="mobile" type="text" name="date of birth" placeholder="DD-MM-YYYY">
+            <lable id="mobilelable" style="color:red;visibility: hidden;font-size: smaller;">required</lable><br><br>
+
+
+            <lable for="Current address">Current Address <span style="color: red;">*</span></lable><br>
+            <input class="addr" type="text" name="Address1" placeholder="Address line1">
+            <lable id="addrslable" style="color:red;visibility: hidden;font-size: smaller;">required</lable><br><br>
+            <input class="addr" type="text" name="Address2" placeholder="Address line2"><br><br>
+            <input class="addr" type="text" name="city" placeholder="city">
+            <lable id="citylable" style="color:red;visibility: hidden;font-size: smaller;">required</lable><br><br>
+            <select class="addr">
+                <option>Tamil Nadu</option>
+                <option>Andhra pradesh</option>
+                <option>kerala</option>
+                <option>Banglore</option>
+            </select><br><br>
+            <input class="addr" type="text" name="pincode" placeholder="Pincode"><br><br>
+
+            <lable for=" permanent Address">permanent Address<span style="color: red;">*</span></lable>
+            <input type="checkbox" name="addr">same as current address<br>
+            <input type="text" name="Address1" placeholder="Address line1"><br><br>
+            <input type="text" name="Address2" placeholder="Address line2"><br><br>
+            <input type="text" name="city" placeholder="city"><br><br>
+            <select>
+                <option>Tamil Nadu</option>
+                <option>Andhra pradesh</option>
+                <option>kerala</option>
+                <option>Banglore</option>
+            </select><br><br>
+            <input type="text" name="pincode" placeholder="Pincode"><br><br>
+
+            <button type="upload photo">Upload photo</button><br><br>
+
+            <button type="button" onclick="validate()">Submit</button>
+
+
+        </form>
+    </body>
+</html>
